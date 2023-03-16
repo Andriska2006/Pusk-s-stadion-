@@ -1,6 +1,5 @@
 # Pusk-s-stadion-
 
-
 Főoldal -> alapvető tulajdonságok a stadionról
 Stadion története, építkezés, tervek, körülmények
 Jegyvásárlás, belépési adatok 
