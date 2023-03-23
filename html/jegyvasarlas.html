@@ -18,13 +18,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+                <a class="nav-link active" aria-current="page" href="Főoldal.html">Főoldal</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Stadion története</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Jegyvásárlás</a>
+                <a class="nav-link" href="jegyvasarlas.html">Jegyvásárlás</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Elérhetőségek</a>
@@ -55,7 +55,37 @@
           </div>
           <span class="badge bg-primary rounded-pill"></span>
         </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Sima jegy</div>
+            10 000 Ft
+          </div>
+          <span class="badge bg-primary rounded-pill"></span>
+        </li>
       </ol>
+<div class="container">
+<h2>Jegyvásárlás</h2>
+<p>Tölste ki az alábbi mezőket a jegyvásárláshoz!</p>
+<form>
+  <label for="fname">Teljes Név::</label><br>
+  <input type="text" id="fname" name="nev"><br>
+  <label for="lname">E-mail cím:</label><br>
+  <input type="text" id="lname" name="email">
+</form>
+<p>Válasszon egy jegy fajtát:</p>
+<form>
+  <input type="checkbox" id="jegy1" name="jegy1" value="Elso">
+  <label for="jegy1"> Első soros hely jegy</label><br>
+  <input type="checkbox" id="jegy2" name="jegy2" value="Ultra">
+  <label for="jegy2"> Ultra fan zóna jegy</label><br>
+  <input type="checkbox" id="jegy3" name="jegy3" value="Vip">
+  <label for="jegy3"> VIP lelátó jegy</label><br>
+  <input type="checkbox" id="jegy4" name="jegy4" value="Sima">
+  <label for="jegy4"> Sima jegy</label>
+</form>
+
+<a href="fizetés.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Fizetés</a>
+</div>
 
 </body>
 </html>
