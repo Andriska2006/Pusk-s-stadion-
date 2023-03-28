@@ -39,3 +39,12 @@ h1{
     padding-right: 30px;
 }
 
+.atadas{
+    width: 560px;
+}
+
+@media(max-width:800px) {
+    .atadas{
+        width: 70vw;
+    }
+}
